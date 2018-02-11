@@ -32,7 +32,7 @@ options.add_experimental_option("prefs",{
     "download.prompt_for_download": False,
     "download.directory_upgrade": True
 })
-options.add_argument('--headless')
+# options.add_argument('--headless')
 browser = webdriver.Chrome(chrome_options=options)
 browser.set_window_position(-2000,0)
 
